@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Quelques maladies rare</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <a href="quelquesmaladiesrares.html">Quelques maladies rare...</a>
+         <nav>
+            <ul>
+               <li><a href="Esterdanlos.html">Ester danlos</a></li>
+               <li><a href="Fibromyalgie.html">Fibromyalgie</a></li>
+                <li><a href="Trijumeau.html">Trijumeau</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <p>Merci de nous donner votre avis sur le site ou sur le thème</p>
+    <fieldset>
+    <p>Identifiant</p>
+    <form method="post" action="envoie.php">
+    <legend>
+    <label for="nom">Nom ou pseudo</label>
+    <input type="text" name="nom">
+    <label for="motdepass">Mot de passe</label>
+    <input type="text" name="motdepass">
+    <br>
+    
+    <label for="qui">Vous êtes</label>
+    <select name="qui">
+    <optgroup label="adulte">
+    <option value="homme">Homme</option>
+    <option value="femme">Femme</option>
+    </optgroup>
+    </select>
+    
+    
+    <!--<label for="genre">Genre</label>
+    <select name="enfant">
+    <optgroup label="Genre">
+    <option value="garçon">Garçon</option>
+    <option value="fille">Fille</option>
+    </optgroup>
+    </select>-->
+    
+    
+    
+    <label for="genre">Genre</label>
+    <select name="enfant">
+    <optgroup label="genre">
+    <option value="garçon">Garçon</option>
+    <option value="fille">Fille</option>
+    </optgroup>
+    </select>
+    
+    <!--pour mettre un commentaire-->
+    </legend>
+    </fieldset>
+    
+    <fieldset>
+    <p>Sondage</p>
+    <label for="message">Votre message</label>
+    <textarea name="message">Tapez ici votre message</textarea>
+    <br>
+    <label for="navigation">Comment à été votre navigation?</label>
+    <input type="radio" name="navigation" value="Très simple">
+    <label for="r1">Très simple</label>
+    <input type="radio" name="navigation" id="r1" value="correcte">
+    <label for="r2">Correcte</label>
+    <input type="radio" name="navigation" id="r2" value="compliqué">
+    <label>Compliqué</label>
+    <br>
+    
+    <label for="message">Qualité du site</label>
+    <input name="instructif" type="checkbox" value="instructif">
+    <label for="instructif">Instructif</label>
+    
+    <input name="esthétique" type="checkbox" value="esthétique">
+    <label for="esthétique">Esthétique</label>
+    
+    <input name="clair" type="checkbox" value="clair">
+    <label for="clair">Clair</label>
+    
+    <input name="pratique" type="checkbox" value="pratique">
+    <label for="pratique">Pratique</label>
+    <br>
+    <!--commentaire pour expliquer que ce label donne droit à un choix unique-->
+    <label for="connaissance">Comment avez-vous connu ce site?</label>
+    <select name="connaissance">
+    <option value="">Selectionner</option>
+    <option value="presse">Presse</option>
+    <option value="internet">Internet</option>
+    <option value="amis ou autre">Amis ou autres</option>
+    </select>
+    <br>
+    <label for="maladies">Quel(s) autre(s) maladies connaissez-vous?</label>
+    <select name="maladies[]"multiple>
+    <!--Attention pour le choix multiple il faut penser que l'utilisateur DOIT appuyer sur ctrl en plus, comment éviter cela? -->
+    <option value="">Selectionner</option>
+    <option value="Roller">Roller</option>
+    <option value="Skateboard">Skateboard</option>
+    <option value="Running">Running</option>
+    <option value="Basket">Basket</option>
+    <option value="Tenis">Tennis</option>
+    </select>
+    
+    <br>
+    </fieldset>
+    
+    <input type="reset" value="Effacer">
+    <input type="submit" value="Envoyer">
+    <input type="button" value="Envoyer" onclick="submit"();>
+    
+    <fieldset id="activité">
+    <legend id="legend">Activité:</legend>
+    <label for="profession" class="labelchamp">Quelle est votre profession?</label>
+    <select name="profession" id="profession">
+    <option>employé</option>
+    <option>informaticien</option>
+    <option>ouvrier</option>
+    <option selected="selected">fonctionnaire</option>
+    <option>commerçant</option>
+    <option>sans emploi</option>
+    <option>auto-entrepreneur</option>
+    <option>cadre</option>
+    <</select>
+    </fieldset>
+    <!--Je ne sais pas quelle ligne de boutton il faut pour cliquer sur envoyer sachant que la page d'envoie n'est pas créé-->
+    
+    </form>
+    
+    
+</body>
+</html>
