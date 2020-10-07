@@ -65,6 +65,8 @@ section p {
     height: 300px;
     border: 1px solid black;
     display: flex;
+    margin-left: 70px;
+    margin-top: 70px;
 }
 
 .textphoto {
@@ -72,4 +74,22 @@ section p {
     height: 400px;
     border: 1px solid black;
     
+}
+.phototrijumeau {
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+}
+.texttrijumeau {
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+
+header img {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
 }
