@@ -12,7 +12,8 @@
 
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-beige">
+    <div class="col-sm-12 col-md-8 col-lg-6">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-beige">
         
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,58 +50,62 @@
         </ul>
       </div>
     </nav>
+    </div>
   </header>
 
 
+
+
 <main>
-  <div class="col-md-9">
-    <h1>contact</h1>
-  </div>
+  <div class="container-fluid">
     <div class="row">
+      <div class="maladie">
+      <div class="col-sm-12 col-md-8 col-lg-6">
+        <div class="col-md-9">
+          <h1>contact</h1>
+        </div>
+
+    
       
   <form role="form" id="contactForm">
-    <div class="row">
-      <div class="form-group col-sm-6">
-        <label for="name" class="h4">Votre nom</label>
-        <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
-      </div>
-      <div class="form-group col-sm-6">
-        <label for="email" class="h4">Votre email</label>
-        <input type="email" class="form-control" id="email" placeholder="Votre mail" required>
-      </div>
+    <div class="form-group col-sm-6">
+      <label for="name" class="h4">Votre nom</label>
+      <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+    </div>
+
+    <div class="form-group col-sm-6">
+      <label for="email" class="h4">Votre email</label>
+      <input type="email" class="form-control" id="email" placeholder="Votre mail" required>
+    </div>
     
 
-      <div class="form-group col-sm-6">
-        <label for="message" class="h4">Indiquer votre message:</label>
-        <textarea id="message" class="form-control" id= "message" placeholder="Ici votre message" required></textarea>
+          <div class="form-group col-sm-6">
+            <label for="message" class="h4">Indiquer votre message:</label>
+            <textarea id="message" class="form-control" id= "message" placeholder="Ici votre message" required></textarea>
+          </div>
+
+          <div class="row">
+            <div class="col-md-1">
+              <p class="envoyer">Envoyer</p>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="bouton">
-        <button class="text-align-right flex-end">envoyer</button>
-      </div> 
-
-    </div></div>
+    </div> 
+  </div>    
   </form>
-
-
-
 </main>
 
 
 <footer>
-  <div id="footer">
-    <div class="facebook">
-      <img src="image/Facebook.png" alt="" width="50" height="50">
+  <div class="fixed-bottom">
+    <div class="footer">
+      <div class="row w-100">
+        <div class="col-4"><img src="image/Facebook.png" alt="facebook" width="50" height="50"></div>
+        <div class="col-4"><img src="image/google.jpg" alt="google" width="50" height="50"></div>
+        <div class="col-4"><img src="image/Twitter.png" alt="google" width="50" height="50"></div>
+      </div>
     </div>
-    
-    <div class="google">
-      <img src="image/google.jpg" alt="" width="50" height="50">
-    </div>
-            
-    <div class="twiter">
-      <img src="image/Twitter.png" alt="" width="50" height="50">
-    </div>
-    
   </div>
 </footer>  
 
