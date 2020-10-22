@@ -4,18 +4,6 @@ nav {
     justify-content: space-around;
     position: fixed;
 }
-a {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-
-nav p {
-    margin-left: 50px;
-    margin-right: 50px;
-    
-}
-
 
 header {
     background-color: beige;
@@ -63,14 +51,11 @@ header a {
     color: blue;
     font-weight: bold;
     padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .maladie {
-    width: 1500px;
-    height: 500px;
-    border: 2px solid black;
+    height: 700px;
     text-align: left;
     border-radius: 40px;
     margin-top: 60px;
@@ -78,13 +63,14 @@ header a {
 }
 
 .accueil {
-    width: 800px;
+    width: 80%;
     height: 300px;
     border: 2px solid blue;
     text-align: center;
     margin-top: 100px;
     margin-left: 300px;
     border-radius: 40px;
+    padding-top: 20px;
 }
 
 
@@ -106,8 +92,6 @@ section p {
     height: 300px;
     border: 1px solid black;
     display: flex;
-    margin-left: 70px;
-    margin-top: 70px;
 }
 
 .textphoto {
@@ -130,13 +114,11 @@ header img {
     border: 1px solid black;
 }
 .footer {
-   /*  height: 70px; */
     width: 1700px;
     background-color: white;
     border: 1px solid black;
     display: flex;
     align-items: center;
-    margin-top: 10px;
     position: fixed;
     bottom: 0%;
 }
