@@ -1,14 +1,15 @@
+.blog {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: blue;
+    padding-left: 10px;
+}
+
 nav {
-    background-color: beige;
+    background-color: blue ;
     display: flex;
     justify-content: space-around;
     position: fixed;
-}
-
-header {
-    background-color: beige;
-    
-    
 }
 
 
@@ -18,7 +19,7 @@ header ul {
     list-style: none;
 }
 
-h1 {
+main h1 {
     color: #5ba0c0;
     border: 1px solid black;
     text-align: center;
@@ -43,7 +44,11 @@ h1 {
     margin-left: 30%;
     
 }
-
+.blog {
+    border: 1px solid black;
+    text-align: left;
+    width: auto;
+}
 
 
 header a {
@@ -83,10 +88,10 @@ header a {
 section p {
     font-size: 30px;
 }
-#container {
+/* #container {
     display: flex;
     flex-direction: row;
-}
+} */
 .photo {
     width: 300px;
     height: 300px;
