@@ -60,12 +60,26 @@ header a {
 
 
 .maladie {
-    height: 400px;
+    height: 500px;
     text-align: left;
     border-radius: 40px;
     margin-top: 60px;
-    /* margin-bottom: 60px; */
 }
+.osdeverre {
+    height: 700px;
+    text-align: left;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.liste {
+    height: 150px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid blue;
+    margin-top: 60px;
+}
+
 
 .propos {
     height: 300px;

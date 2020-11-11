@@ -1,4 +1,10 @@
 <?php
-// envoi d'un email à webmaster@tutovisuel.com
-mail("maladiesrares@gmail.com", "Sujet", "Le message\nligne2");
+// the message
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("maladierares38@gmail.com","My subject",$msg);
 ?>
